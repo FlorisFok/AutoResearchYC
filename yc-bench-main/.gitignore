@@ -1,0 +1,40 @@
+# Secrets / local env
+.env
+backend/.env
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Local virtual environments
+.venv/
+venv/
+backend/.venv/
+
+# Packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# OS/editor noise
+.DS_Store
+
+# Benchmark outputs / logs
+backend/results_*.json
+backend/yc_bench_result_*.json
+backend/yc_bench_log_*.txt
+
+agent.md
+
+# Benchmark runtime outputs
+/db/
+/logs/
+/plots/
+/results/
+
+# Claude session context — local only
+CLAUDE.md
+old/

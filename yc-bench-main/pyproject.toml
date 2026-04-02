@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yc-bench"
+version = "0.1.0"
+description = "Long-horizon deterministic benchmark for LLM agents — CEO of an AI startup"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "typer>=0.9",
+    "sqlalchemy>=2.0",
+    "pydantic>=2.0",
+    "litellm>=1.40",
+    "python-dotenv>=1.0",
+    "matplotlib>=3.10.8",
+    "streamlit>=1.55.0",
+    "plotly>=6.6.0",
+]
+
+[project.optional-dependencies]
+# Install when DATABASE_URL points to PostgreSQL: uv add yc-bench[postgres]
+postgres = ["psycopg[binary]>=3.1"]
+
+[project.scripts]
+yc-bench = "yc_bench.cli:app_main"
+
+
+[tool.hatch.build.targets.wheel]
+# Hatchling finds src/yc_bench automatically with src layout
+packages = ["src/yc_bench"]
+# configs/ presets will be included here once moved inside the package (step 5)
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/",
+    "configs/",
+    "README.md",
+    "pyproject.toml",
+]
