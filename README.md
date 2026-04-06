@@ -96,6 +96,8 @@ The agent will autonomously loop through prompt edits, benchmark runs, and resul
 
 This project builds on [YC-Bench](https://github.com/collinear-ai/yc-bench) by [Collinear AI](https://collinear.ai/) — a long-horizon deterministic benchmark for LLM agents. The benchmark source is included in `yc-bench-main/` under the MIT license. Thanks to the Collinear AI team for building such a great benchmark!
 
+Inspired by Andrej Karpathy's [autoresearch](https://github.com/karpathy/autoresearch) — the idea of letting AI autonomously run and iterate on research loops.
+
 ## License
 
 MIT
