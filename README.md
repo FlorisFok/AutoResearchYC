@@ -98,6 +98,10 @@ I think these would be the reasonable hyperparameters to play with. Ask your fav
 - [jsegov/autoresearch-win-rtx](https://github.com/jsegov/autoresearch-win-rtx) (Windows)
 - [andyluo7/autoresearch](https://github.com/andyluo7/autoresearch) (AMD)
 
+## Acknowledgments
+
+This project builds on [YC-Bench](https://github.com/collinear-ai/yc-bench) by [Collinear AI](https://collinear.ai/) — a long-horizon deterministic benchmark for LLM agents. The benchmark source is included in `yc-bench-main/` under the MIT license. Thanks to the Collinear AI team for building such a great benchmark!
+
 ## License
 
 MIT
