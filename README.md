@@ -7,7 +7,14 @@
 | **1** | **This repo (Claude Sonnet 4.6)** | **$1,729,452** |
 | 2 | zai-org/GLM-5 | $1,208,190 |
 | 3 | moonshotai/Kimi-K2.5 | $408,822 |
-| 4 | Qwen/Qwen3.5-397B-A17B | $90,787 |
+| 4 | zai-org/GLM-4.7 | $398,410 |
+| 5 | MiniMaxAI/MiniMax-M2.5 | $230,465 |
+| 6 | deepseek-ai/DeepSeek-V3.2 | $125,263 |
+| 7 | Qwen/Qwen3.5-397B-A17B | $90,787 |
+| 8 | arcee-ai/Trinity-Large-Thinking | $32,667 |
+| 9 | Qwen/Qwen3.5-122B-A10B | $0 |
+
+See the [full leaderboard on HuggingFace](https://huggingface.co/datasets/collinear-ai/yc-bench) for the most up-to-date rankings.
 
 ## What is this?
 
