@@ -13,6 +13,7 @@
 | 7 | Qwen/Qwen3.5-397B-A17B | $90,787 |
 | 8 | arcee-ai/Trinity-Large-Thinking | $32,667 |
 | 9 | Qwen/Qwen3.5-122B-A10B | $0 |
+| - | Claude Sonnet 4.6 (no prompt evolution) | -$3,607 |
 
 See the [full leaderboard on HuggingFace](https://huggingface.co/datasets/collinear-ai/yc-bench) for the most up-to-date rankings.
 
