@@ -4,7 +4,8 @@ set -e
 
 # ANTHROPIC_API_KEY must be set in environment before running
 
-DB="/Users/floris.fok/Documents/AutoResearch/yc/yc-bench-main/db/custom_config_1_anthropic_claude-sonnet-4-6.db"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+DB="$SCRIPT_DIR/yc-bench-main/db/custom_config_1_anthropic_claude-sonnet-4-6.db"
 ATTEMPT=0
 
 while true; do
